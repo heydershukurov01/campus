@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  section {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      height: 100%;
+      margin: 0 16px;
+      transition: 200ms;
+      &:hover {
+        border-bottom: 2px solid #8c8c8c;
+      }
+      a{
+        text-decoration: none;
+        font-size: 14px;
+        color: #8c8c8c!important;
+        cursor: pointer;
+      }
+    }
+  }
+}
