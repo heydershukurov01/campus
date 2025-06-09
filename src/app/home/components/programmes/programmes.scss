@@ -1,0 +1,25 @@
+.programmes {
+  padding: 2rem 1rem;
+}
+.programme-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.programme {
+  max-width: 320px;
+  text-align: center;
+}
+.programme img {
+  width: 100%;
+  height: auto;
+}
+.btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #af8542;
+  color: #fff;
+  text-decoration: none;
+}
