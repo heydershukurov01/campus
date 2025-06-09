@@ -25,7 +25,9 @@ export class HeroVideo implements AfterViewInit {
           playerVars: {
             autoplay: 1,
             mute: 1,
-            playsinline: 1
+            playsinline: 1,
+            loop: 1,
+            playlist: 'L00wZaW0idE'
           },
           events: {
             onReady: (event: any) => {
