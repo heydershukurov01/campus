@@ -1,5 +1,12 @@
 ::ng-deep iframe {
   width: 100%;
-  height: 900px;
+  height: 56.25vw;
+  max-height: 900px;
   margin: 0;
+}
+
+@media (min-width: 1920px) {
+  ::ng-deep iframe {
+    max-height: 1080px;
+  }
 }

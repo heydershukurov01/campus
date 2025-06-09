@@ -34,3 +34,26 @@ nav {
     }
   }
 }
+
+@media (max-width: 480px) {
+  nav section {
+    width: 90%;
+    flex-direction: column;
+  }
+  nav ul {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  nav ul li {
+    margin: 8px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  nav section {
+    width: 80%;
+  }
+}
