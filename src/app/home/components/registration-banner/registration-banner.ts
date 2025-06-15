@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-registration-banner',
   standalone: false,
   templateUrl: './registration-banner.html',
-  styleUrl: './registration-banner.scss'
+  styleUrls: ['./registration-banner.scss', './registration-banner.responsive.scss']
 })
 export class RegistrationBanner {}

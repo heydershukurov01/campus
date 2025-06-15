@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .programmes {
+    width: 90%;
+  }
+  .programme {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .programmes {
+    width: 80%;
+  }
+  .programme {
+    width: 45%;
+  }
+}

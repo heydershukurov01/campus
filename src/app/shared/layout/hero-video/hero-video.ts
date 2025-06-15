@@ -6,7 +6,7 @@ import { Inject, PLATFORM_ID } from '@angular/core';
   selector: 'app-hero-video',
   imports: [],
   templateUrl: './hero-video.html',
-  styleUrl: './hero-video.scss'
+  styleUrls: ['./hero-video.scss', './hero-video.responsive.scss']
 })
 export class HeroVideo implements AfterViewInit {
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}

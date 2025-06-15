@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .why-come {
+    width: 90%;
+  }
+  .why-come .group-separator {
+    flex-direction: column;
+  }
+  .why-come .group {
+    width: 100%;
+  }
+  .why-come h2 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .why-come {
+    width: 80%;
+  }
+  .why-come .group {
+    width: 45%;
+  }
+}

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .registration-banner {
+    padding: 40px 20px;
+  }
+  .banner-content {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner-content {
+    width: 80%;
+  }
+}
