@@ -9,6 +9,7 @@ import {HeroVideo} from '../shared/layout/hero-video/hero-video';
 import {Intro} from './components/intro/intro';
 import {Programmes} from './components/programmes/programmes';
 import {WhyCome} from './components/why-come/why-come';
+import {RegistrationBanner} from './components/registration-banner/registration-banner';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import {WhyCome} from './components/why-come/why-come';
     Intro,
     Programmes,
     WhyCome,
+    RegistrationBanner,
   ],
   imports: [
     CommonModule,
