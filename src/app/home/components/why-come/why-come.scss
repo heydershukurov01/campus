@@ -1,11 +1,53 @@
 .why-come {
-  padding: 2rem 1rem;
-  text-align: center;
-}
-.why-come ul {
-  list-style: none;
-  padding: 0;
-}
-.why-come li {
-  margin: 0.5rem 0;
+  background: #f9f9f9;
+  padding: 90px 0;
+  width: 100%;
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #363636;
+    font-family: Raleway, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+  }
+  .group {
+    width: 70%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    .title-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .feature-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 20px;
+    }
+    .feature {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      h6 {
+        margin-top: 0.5rem;
+        font-family: Raleway, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #363636;
+      }
+    }
+    .separator {
+      width: 100%;
+      height: auto;
+      margin: 30px 0;
+    }
+    .faq {
+      font-family: Raleway, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #363636;
+    }
+  }
 }
