@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  nav section {
+    width: 90%;
+    flex-direction: column;
+    position: relative;
+  }
+  .hamburger {
+    display: block;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  nav div.menu {
+    display: none;
+    width: 100%;
+  }
+  nav div.menu.open {
+    display: block;
+  }
+  nav ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 0;
+  }
+  nav ul li {
+    margin: 8px 0;
+  }
+  nav ul li a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav section {
+    width: 80%;
+  }
+}

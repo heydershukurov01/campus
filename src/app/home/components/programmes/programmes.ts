@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-programmes',
   standalone: false,
   templateUrl: './programmes.html',
-  styleUrl: './programmes.scss'
+  styleUrls: ['./programmes.scss', './programmes.responsive.scss']
 })
 export class Programmes {}

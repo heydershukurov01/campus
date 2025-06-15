@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-why-come',
   standalone: false,
   templateUrl: './why-come.html',
-  styleUrl: './why-come.scss'
+  styleUrls: ['./why-come.scss', './why-come.responsive.scss']
 })
 export class WhyCome {}

@@ -57,29 +57,3 @@ header {
     cursor: pointer;
   }
 }
-
-@media (max-width: 480px) {
-  header {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  }
-  header div {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  header button {
-    margin-top: 10px;
-    width: 100%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 1024px) {
-  header {
-    flex-direction: column;
-    height: auto;
-  }
-  header button {
-    margin-top: 10px;
-  }
-}
