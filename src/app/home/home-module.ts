@@ -24,9 +24,6 @@ import {WhyCome} from './components/why-come/why-come';
     Header,
     Hero,
     HeroVideo,
-    Intro,
-    Programmes,
-    WhyCome
   ]
 })
 export class HomeModule { }

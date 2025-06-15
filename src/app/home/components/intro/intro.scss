@@ -1,16 +1,42 @@
 .intro {
-  padding: 2rem 1rem;
+  padding: 90px 0rem;
   text-align: center;
-}
-.intro h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.intro p {
-  max-width: 600px;
-  margin: 0 auto 1rem;
-}
-.intro img {
-  max-width: 100%;
-  height: auto;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  h1 {
+    font-size: 36px;
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #363636;
+    margin-bottom: 1rem;
+  }
+  p {
+    max-width: 80%;
+    margin: 0 auto 1rem;
+    margin-left: 0;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #8c8c8c;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+
+  }
+  img {
+    max-width: 510px;
+    height: auto;
+  }
+  h5 {
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #af8542;
+    font-size: 25.6px;
+    font-style: italic;
+    margin-top: 0;
+  }
 }
