@@ -1,6 +1,6 @@
 .registration-banner {
   background: #af8542;
-  padding: 90px 50px;
+  padding: 70px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,12 +11,15 @@
 .banner-content {
   width: 70%;
   margin: auto;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .banner-content h2 {
   font-size: 30px;
-  color: #ffffff;
+  color: #363636;
   font-family: Raleway, Helvetica, sans-serif;
   font-weight: 900;
   margin-bottom: 0.5rem;
@@ -24,7 +27,7 @@
 
 .banner-content h5 {
   font-family: Raleway, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 21px;
   color: #ffffff;
   letter-spacing: 1px;
   margin-top: 0;
