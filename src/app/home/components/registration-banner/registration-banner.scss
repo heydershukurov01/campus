@@ -1,6 +1,11 @@
 .registration-banner {
-  background: #f9f9f9;
-  padding: 90px 0;
+  background: #af8542;
+  padding: 90px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .banner-content {
@@ -11,26 +16,46 @@
 
 .banner-content h2 {
   font-size: 30px;
-  color: #363636;
+  color: #ffffff;
   font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 900;
   margin-bottom: 0.5rem;
 }
 
 .banner-content h5 {
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 16px;
-  color: #8c8c8c;
+  color: #ffffff;
+  letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
 
 .banner-content .btn {
   padding: 12px 24px;
-  background: #af8542;
+  background: #212121;
   color: #fff;
   text-decoration: none;
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 17.6px;
   text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 1px;
   border-radius: 3px;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 15px;
+}
+
+.banner-content .btn:hover,
+.banner-content .btn:focus {
+  background: #000000;
+}
+
+.banner-content .btn svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
 }
