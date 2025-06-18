@@ -11,6 +11,7 @@ import {Programmes} from './components/programmes/programmes';
 import {WhyCome} from './components/why-come/why-come';
 import {RegistrationBanner} from './components/registration-banner/registration-banner';
 import { ContactDetails } from './components/contact-details/contact-details';
+import { CampusLocation } from './components/campus-location/campus-location';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ContactDetails } from './components/contact-details/contact-details';
     WhyCome,
     RegistrationBanner,
     ContactDetails,
+    CampusLocation,
   ],
   imports: [
     CommonModule,
