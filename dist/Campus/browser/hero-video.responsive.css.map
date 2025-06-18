@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/layout/hero-video/hero-video.responsive.scss"],
-  "sourcesContent": ["@media (min-width: 1920px) {\n  ::ng-deep iframe {\n    max-height: 1080px;\n  }\n}\n"],
-  "mappings": ";AAAA,OAAA,CAAA,SAAA,EAAA;AACE,YAAA;AACE,gBAAA;;;",
-  "names": []
-}

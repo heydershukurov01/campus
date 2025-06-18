@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/home/components/intro/intro.scss"],
-  "sourcesContent": [".intro {\n  padding: 90px 0rem;\n  text-align: center;\n  display: flex;\n  width: 70%;\n  margin: auto;\n  div {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start;\n  }\n  h1 {\n    font-size: 36px;\n    font-family: Raleway, Helvetica, sans-serif;\n    color: #363636;\n    margin-bottom: 1rem;\n  }\n  p {\n    max-width: 80%;\n    margin: 0 auto 1rem;\n    margin-left: 0;\n    font-family: Raleway, Helvetica, sans-serif;\n    font-size: 16px;\n    color: #8c8c8c;\n    text-align: justify;\n    letter-spacing: 0.5px;\n    line-height: 1.4em;\n\n  }\n  img {\n    max-width: 510px;\n    height: auto;\n  }\n  h5 {\n    font-family: Raleway, Helvetica, sans-serif;\n    color: #af8542;\n    font-size: 25.6px;\n    font-style: italic;\n    margin-top: 0;\n  }\n}\n"],
-  "mappings": ";AAAA,CAAA;AACE,WAAA,KAAA;AACA,cAAA;AACA,WAAA;AACA,SAAA;AACA,UAAA;;AACA,CANF,MAME;AACE,WAAA;AACA,kBAAA;AACA,mBAAA;AACA,eAAA;;AAEF,CAZF,MAYE;AACE,aAAA;AACA;IAAA,OAAA;IAAA,SAAA;IAAA;AACA,SAAA;AACA,iBAAA;;AAEF,CAlBF,MAkBE;AACE,aAAA;AACA,UAAA,EAAA,KAAA;AACA,eAAA;AACA;IAAA,OAAA;IAAA,SAAA;IAAA;AACA,aAAA;AACA,SAAA;AACA,cAAA;AACA,kBAAA;AACA,eAAA;;AAGF,CA9BF,MA8BE;AACE,aAAA;AACA,UAAA;;AAEF,CAlCF,MAkCE;AACE;IAAA,OAAA;IAAA,SAAA;IAAA;AACA,SAAA;AACA,aAAA;AACA,cAAA;AACA,cAAA;;",
-  "names": []
-}
