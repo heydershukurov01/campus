@@ -1,0 +1,111 @@
+section {
+  display: flex;
+  width: 70%;
+  padding: 90px 0;
+  margin: auto;
+  justify-content: space-between;
+  div {
+    color: #8c8c8c;
+    background: #f9f9f9;
+    border-radius: 25px;
+    padding: 35px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Raleway, Helvetica, sans-serif;
+    &>p {
+      color: #af8542;
+      font-size: 21px;
+      font-family: Raleway, Helvetica, sans-serif;
+      font-weight: 700;
+    }
+    input, select {
+      background: #252525;
+      padding: 12px 15px;
+      font-size: 15px;
+      color: #af8542;
+      margin-top: 14px;
+      font-family: Raleway, Helvetica, sans-serif;
+      border-color: #252525;
+      inline: none;
+      outline: none;
+      border-style: solid;
+    }
+    select {
+      border-right: none;
+    }
+    input {
+      border-left: none;
+    }
+    .country-selector {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .img-right {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding-right: 0;
+    }
+    .contact-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      padding: 0;
+      i {
+        color: black;
+        font-size: 20px;
+      }
+      a {
+        margin-left: 10px;
+        color: #af8542;
+        font-family: Raleway, Helvetica, sans-serif;
+        font-size: 16px;
+        padding-inline-start: 5px;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+    }
+    .desc-data {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      input {
+        margin: 3px;
+      }
+    }
+    button {
+      margin: 14px 0 0;
+      background: #af8542;
+      color: white;
+      padding: 12px 15px;
+      letter-spacing: 0.5px;
+      font-family: Raleway, Helvetica, sans-serif;
+      font-size: 20.8px;
+      border: none;
+      font-weight: 700;
+    }
+    h2 {
+      color: #363636!important;
+      font-size: 30px;
+    }
+    .info {
+      font-size: 21px;
+      color: #af8542;
+      font-family: Raleway, Helvetica, sans-serif;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/home/components/intro/intro.responsive.scss"],
+  "sourcesContent": ["@media (max-width: 768px) {\n  .intro {\n    width: 90%;\n    flex-direction: column;\n    padding: 40px 0;\n  }\n  .intro div {\n    align-items: center;\n  }\n  .intro p {\n    max-width: 100%;\n    text-align: center;\n  }\n  .intro img {\n    max-width: 100%;\n    margin-top: 20px;\n  }\n}\n\n@media (min-width: 769px) and (max-width: 1024px) {\n  .intro {\n    width: 80%;\n  }\n}\n"],
+  "mappings": ";AAAA,OAAA,CAAA,SAAA,EAAA;AACE,GAAA;AACE,WAAA;AACA,oBAAA;AACA,aAAA,KAAA;;AAEF,GALA,MAKA;AACE,iBAAA;;AAEF,GARA,MAQA;AACE,eAAA;AACA,gBAAA;;AAEF,GAZA,MAYA;AACE,eAAA;AACA,gBAAA;;;AAIJ,OAAA,CAAA,SAAA,EAAA,OAAA,IAAA,CAAA,SAAA,EAAA;AACE,GAnBA;AAoBE,WAAA;;;",
+  "names": []
+}

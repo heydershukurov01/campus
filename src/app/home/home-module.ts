@@ -10,6 +10,7 @@ import {Intro} from './components/intro/intro';
 import {Programmes} from './components/programmes/programmes';
 import {WhyCome} from './components/why-come/why-come';
 import {RegistrationBanner} from './components/registration-banner/registration-banner';
+import { ContactDetails } from './components/contact-details/contact-details';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import {RegistrationBanner} from './components/registration-banner/registration-
     Programmes,
     WhyCome,
     RegistrationBanner,
+    ContactDetails,
   ],
   imports: [
     CommonModule,

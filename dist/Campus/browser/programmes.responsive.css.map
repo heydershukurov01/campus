@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/home/components/programmes/programmes.responsive.scss"],
+  "sourcesContent": ["@media (max-width: 768px) {\n  .programmes {\n    width: 90%;\n  }\n  .programme {\n    width: 100%;\n  }\n}\n\n@media (min-width: 769px) and (max-width: 1024px) {\n  .programmes {\n    width: 80%;\n  }\n  .programme {\n    width: 45%;\n  }\n}\n"],
+  "mappings": ";AAAA,OAAA,CAAA,SAAA,EAAA;AACE,GAAA;AACE,WAAA;;AAEF,GAAA;AACE,WAAA;;;AAIJ,OAAA,CAAA,SAAA,EAAA,OAAA,IAAA,CAAA,SAAA,EAAA;AACE,GATA;AAUE,WAAA;;AAEF,GATA;AAUE,WAAA;;;",
+  "names": []
+}

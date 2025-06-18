@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/layout/hero/hero.responsive.scss"],
+  "sourcesContent": ["@media (max-width: 768px) {\n  nav section {\n    width: 90%;\n    flex-direction: column;\n    position: relative;\n  }\n  .hamburger {\n    display: block;\n    background: transparent;\n    border: none;\n    font-size: 24px;\n    cursor: pointer;\n  }\n  nav div.menu {\n    display: none;\n    width: 100%;\n  }\n  nav div.menu.open {\n    display: block;\n  }\n  nav ul {\n    flex-direction: column;\n    flex-wrap: wrap;\n    height: auto;\n    padding: 0;\n  }\n  nav ul li {\n    margin: 8px 0;\n  }\n  nav ul li a {\n    font-size: 14px;\n  }\n}\n\n@media (min-width: 769px) and (max-width: 1024px) {\n  nav section {\n    width: 80%;\n  }\n}\n"],
+  "mappings": ";AAAA,OAAA,CAAA,SAAA,EAAA;AACE,MAAA;AACE,WAAA;AACA,oBAAA;AACA,cAAA;;AAEF,GAAA;AACE,aAAA;AACA,gBAAA;AACA,YAAA;AACA,eAAA;AACA,YAAA;;AAEF,MAAA,GAAA,CAAA;AACE,aAAA;AACA,WAAA;;AAEF,MAAA,GAAA,CAJA,IAIA,CAAA;AACE,aAAA;;AAEF,MAAA;AACE,oBAAA;AACA,eAAA;AACA,YAAA;AACA,aAAA;;AAEF,MAAA,GAAA;AACE,YAAA,IAAA;;AAEF,MAAA,GAAA,GAAA;AACE,eAAA;;;AAIJ,OAAA,CAAA,SAAA,EAAA,OAAA,IAAA,CAAA,SAAA,EAAA;AACE,MAAA;AACE,WAAA;;;",
+  "names": []
+}

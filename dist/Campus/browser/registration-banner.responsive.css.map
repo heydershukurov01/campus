@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/home/components/registration-banner/registration-banner.responsive.scss"],
+  "sourcesContent": ["@media (max-width: 768px) {\n  .registration-banner {\n    padding: 40px 20px;\n  }\n  .banner-content {\n    width: 90%;\n    flex-direction: column;\n    text-align: center;\n    gap: 20px;\n  }\n}\n\n@media (min-width: 769px) and (max-width: 1024px) {\n  .banner-content {\n    width: 80%;\n  }\n}\n"],
+  "mappings": ";AAAA,OAAA,CAAA,SAAA,EAAA;AACE,GAAA;AACE,aAAA,KAAA;;AAEF,GAAA;AACE,WAAA;AACA,oBAAA;AACA,gBAAA;AACA,SAAA;;;AAIJ,OAAA,CAAA,SAAA,EAAA,OAAA,IAAA,CAAA,SAAA,EAAA;AACE,GATA;AAUE,WAAA;;;",
+  "names": []
+}
