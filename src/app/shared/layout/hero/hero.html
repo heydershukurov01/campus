@@ -8,19 +8,52 @@
   <button class="hamburger" (click)="toggleMenu()">
     <i class="fa fa-bars"></i>
   </button>
-  <div class="menu" [class.open]="isMenuOpen">
+   <div class="menu">
+     <ul>
+       <li><a routerLink="#">Home</a></li>
+
+       <li
+         class="has-submenu"
+         (mouseenter)="submenuOpen = true"
+         (mouseleave)="submenuOpen = false"
+       >
+         <a href="#" (click)="toggleSubmenu(); $event.preventDefault()">Campus Experience</a>
+         <ul class="submenu" [class.open]="submenuOpen">
+           <li><a href="/what-is-campus-experience">What is Campus Experience</a></li>
+           <li><a routerLink="#">Why Should I come</a></li>
+           <li><a routerLink="#">Frequently Asked Questions</a></li>
+           <li><a routerLink="#">Blog</a></li>
+           <li><a routerLink="#">Who are we?</a></li>
+           <li><a routerLink="#">Become a Partner</a></li>
+         </ul>
+       </li>
+
+       <li><a routerLink="#">Programmes</a></li>
+       <li><a routerLink="#">Location 2025</a></li>
+     </ul>
+   </div>
+ </section>
+  <div class="menu-toggle" [class.open]="isMenuOpen">
     <ul>
       <li>
-        <a href="#">Home</a>
+        <a href="#" (click)="submenuOpen = false;">Home</a>
+      </li>
+      <li
+        class="has-submenu">
+        <a href="#" (click)="toggleSubmenu(); $event.preventDefault()">Campus Experience</a>
+        <ul class="submenu" [class.open]="submenuOpen">
+          <li><a href="/what-is-campus-experience">What is Campus Experience</a></li>
+          <li><a routerLink="#">Why Should I come</a></li>
+          <li><a routerLink="#">Frequently Asked Questions</a></li>
+          <li><a routerLink="#">Blog</a></li>
+          <li><a routerLink="#">Who are we?</a></li>
+          <li><a routerLink="#">Become a Partner</a></li>
+        </ul>
       </li>
       <li>
-        <a href="#">Campus Experience</a>
+        <a href="#" (click)="submenuOpen = false;">Programmes</a>
       </li>
-      <li>
-        <a href="#">Programmes</a>
-      </li>
-      <li><a href="#">Location 2025</a></li>
+      <li><a href="#" (click)="submenuOpen = false;">Location 2025</a></li>
     </ul>
   </div>
- </section>
 </nav>

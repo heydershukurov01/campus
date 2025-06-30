@@ -1,0 +1,132 @@
+footer {
+  background: #191919;
+  section {
+    width: 70%;
+    margin: auto;
+    padding: 0 20px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    .contact-card {
+      margin-left: 15px;
+      margin-right: 15px;
+      color: white;
+      font-size: 19px;
+      font-family: Raleway, Helvetica, sans-serif;
+      h4 {
+        font-weight: 400!important;
+      }
+      .contact-card-items {
+        position: relative;
+        &:after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          content: ".";
+          text-indent: -9999px;
+          opacity: 0.11;
+          background: url("https://campusexperiencermf.com/wp-content/themes/waxom/img/contact-details-map.png");
+        }
+        .widget-contact-details-item {
+          color: #636363;
+          font-size: 14px;
+          padding-bottom: 12px;
+          margin-bottom: 12px;
+          line-height: 28px;
+          font-family: Raleway, Helvetica, sans-serif;
+          a {
+            text-decoration: none;
+            color: #636363;
+            font-size: 14px;
+          }
+          i {
+            font-size: 18px;
+          }
+          span {
+            padding-left: 30px;
+          }
+        }
+      }
+    }
+    .members-menu {
+      margin-left: 15px;
+      margin-right: 15px;
+      font-size: 19px;
+      font-family: Raleway, Helvetica, sans-serif;
+      color: white;
+      margin-bottom: 19px;
+      h4 {
+        font-weight: 400!important;
+      }
+      a {
+        color: #8c8c8c;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Raleway, Helvetica, sans-serif;
+      }
+    }
+    .latest-news {
+      margin-left: 15px;
+      margin-right: 15px;
+      font-size: 19px;
+      font-family: Raleway, Helvetica, sans-serif;
+      color: white;
+      margin-bottom: 19px;
+      h4 {
+        font-weight: 400!important;
+      }
+      .news-card {
+        padding: 10px 10px 10px 0;
+      }
+      p , small {
+        color: #8c8c8c;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Raleway, Helvetica, sans-serif;
+      }
+      small {
+        opacity: 0.5;
+      }
+    }
+    .stakeholders {
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #8c8c8c;
+
+  i {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}
+.footer-nav {
+  background: #111111;
+
+  color: #515151;
+  font-size: 14px;
+  font-family: Raleway, Helvetica, sans-serif;
+  .main-nav-footer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+    color: #515151;
+  }
+}

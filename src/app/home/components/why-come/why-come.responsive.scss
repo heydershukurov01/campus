@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .why-come {
     width: 90%;
   }
@@ -10,6 +10,10 @@
   }
   .why-come h2 {
     width: 100%;
+  }
+  #why-should-i-come {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 

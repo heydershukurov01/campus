@@ -1,0 +1,19 @@
+@media only screen and (max-width: 767px) {
+  footer {
+    background: #191919;
+    section {
+      width: 100%;
+      flex-wrap: wrap;
+      padding-left: 0!important;
+      padding-right: 0!important;
+      &>div {
+        margin-right: 0!important;
+        margin-left: 0!important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+
+}

@@ -1,25 +1,28 @@
-@media (max-width: 480px) {
+//@media only screen and (max-width: 767px) {
+//
+//}
+//
+//@media only screen and (min-width: 767px) and (max-width: 1024px) {
+//
+//}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    display: none!important;
+  }
+  .contact {
+    display: none!important;
+  }
+  .socials {
+    display: none!important;
+  }
   header {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  }
-  header div {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  header button {
-    margin-top: 10px;
-    width: 100%;
+    justify-content: space-around !important;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
-@media (min-width: 481px) and (max-width: 1024px) {
-  header {
-    flex-direction: column;
-    height: auto;
-  }
-  header button {
-    margin-top: 10px;
-  }
+@media (min-width: 767px) and (max-width: 1024px) {
+
 }

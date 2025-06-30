@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing-module';
 import {Home} from './components/home/home';
-import {Header} from '../shared/layout/header/header';
 import {Hero} from '../shared/layout/hero/hero';
 import {HeroVideo} from '../shared/layout/hero-video/hero-video';
 import {Intro} from './components/intro/intro';
@@ -12,6 +11,7 @@ import {WhyCome} from './components/why-come/why-come';
 import {RegistrationBanner} from './components/registration-banner/registration-banner';
 import { ContactDetails } from './components/contact-details/contact-details';
 import { CampusLocation } from './components/campus-location/campus-location';
+import {SharedModule} from '../shared/shared-module';
 
 
 @NgModule({
@@ -27,8 +27,8 @@ import { CampusLocation } from './components/campus-location/campus-location';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    Header,
     Hero,
+    SharedModule,
     HeroVideo,
   ]
 })

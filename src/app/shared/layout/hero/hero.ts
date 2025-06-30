@@ -8,8 +8,12 @@ import { Component } from '@angular/core';
 })
 export class Hero {
   isMenuOpen = false;
-
+  submenuOpen = false;
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
+
+  }
+  toggleSubmenu() {
+    this.submenuOpen = !this.submenuOpen;
   }
 }

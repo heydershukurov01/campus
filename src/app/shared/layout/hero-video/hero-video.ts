@@ -11,9 +11,7 @@ import { Inject, PLATFORM_ID } from '@angular/core';
 export class HeroVideo implements AfterViewInit {
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
   ngAfterViewInit(): void {
-    console.log("Helo from the other side");
     if (isPlatformBrowser(this.platformId)) {
-      console.log("Hello")
       const tag = document.createElement('script');
       tag.src = 'https://www.youtube.com/iframe_api';
       document.body.appendChild(tag);
