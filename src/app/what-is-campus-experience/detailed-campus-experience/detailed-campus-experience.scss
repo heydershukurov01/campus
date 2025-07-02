@@ -46,6 +46,32 @@ section {
     }
   }
 }
+#values {
+  &>div{
+    flex-direction: column;
+  }
+}
+#areasofwork {
+  &>div{
+    flex-direction: column;
+  }
+  .workareascontainer {
+    display: flex;
+    .area-card {
+      h4 {
+        font-family: Raleway, Helvetica, sans-serif;
+        font-size: 21px;
+        color: #363636;
+        font-weight: 400;
+      }
+      p {
+        font-family: Raleway, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #af8542;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 768px) {
   nav {
     ol {
@@ -60,6 +86,9 @@ section {
     }
   }
   section {
+    img {
+      width: 100%!important;
+    }
     &>div {
       width: 95%;
       margin: auto;
@@ -74,6 +103,16 @@ section {
       }
       div {
 
+      }
+    }
+  }
+  #areasofwork {
+    .workareascontainer {
+      flex-direction: column;
+      .area-card {
+        img {
+          width: 100px!important;
+        }
       }
     }
   }
