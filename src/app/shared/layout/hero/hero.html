@@ -1,10 +1,13 @@
-<nav>
+<nav #navigationMenu>
  <section>
    <div>
      <a href="">
        <img src="assets/images/logo.webp" alt="Logo">
      </a>
    </div>
+   <ng-container *ngIf="isMobile">
+     <div id="google_translate_element"></div>
+   </ng-container>
   <button class="hamburger" (click)="toggleMenu()">
     <i class="fa fa-bars"></i>
   </button>
@@ -31,7 +34,9 @@
        <li><a routerLink="#">Programmes</a></li>
        <li><a routerLink="#">Location 2025</a></li>
        <li>
-         <div id="google_translate_element"></div>
+         <ng-container *ngIf="!isMobile">
+           <div id="google_translate_element"></div>
+         </ng-container>
        </li>
      </ul>
    </div>

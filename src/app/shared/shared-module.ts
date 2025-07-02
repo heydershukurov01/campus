@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {Header} from './layout/header/header';
 import {FooterComponent} from './layout/footer/footer';
 import {TitleOfInner} from './layout/title-of-inner/title-of-inner';
+import {Hero} from './layout/hero/hero';
 
 
 
@@ -10,12 +11,14 @@ import {TitleOfInner} from './layout/title-of-inner/title-of-inner';
   declarations: [
     Header,
     FooterComponent,
-    TitleOfInner
+    TitleOfInner,
+    Hero
   ],
   exports: [
     Header,
     FooterComponent,
-    TitleOfInner
+    TitleOfInner,
+    Hero
   ],
   imports: [
     CommonModule

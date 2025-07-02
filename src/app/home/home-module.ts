@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing-module';
 import {Home} from './components/home/home';
-import {Hero} from '../shared/layout/hero/hero';
 import {HeroVideo} from '../shared/layout/hero-video/hero-video';
 import {Intro} from './components/intro/intro';
 import {Programmes} from './components/programmes/programmes';
@@ -27,7 +26,6 @@ import {SharedModule} from '../shared/shared-module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    Hero,
     SharedModule,
     HeroVideo,
   ]

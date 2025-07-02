@@ -1,4 +1,13 @@
-import {AfterViewInit, ChangeDetectorRef, Component, Inject, OnInit, PLATFORM_ID} from '@angular/core';
+import {
+  AfterViewInit,
+  ChangeDetectorRef,
+  Component,
+  ElementRef,
+  Inject,
+  OnInit,
+  PLATFORM_ID,
+  ViewChild
+} from '@angular/core';
 import {isPlatformBrowser} from '@angular/common';
 declare var google: any;
 declare global {
@@ -9,15 +18,17 @@ declare global {
 }
 @Component({
   selector: 'app-hero',
-  imports: [],
+  standalone: false,
   templateUrl: './hero.html',
   styleUrls: ['./hero.scss', './hero.responsive.scss']
 })
 export class Hero implements OnInit, AfterViewInit {
   isMenuOpen = false;
   submenuOpen = false;
+  isMobile: boolean = false;
   /** Hazırkı aktiv dil kodu (az, en, es, ru) */
   currentLang = 'az';
+  @ViewChild('navigationMenu') menu!: ElementRef;
   constructor(
     @Inject(PLATFORM_ID) private platformId: any,
     private cdRef: ChangeDetectorRef
@@ -26,10 +37,14 @@ export class Hero implements OnInit, AfterViewInit {
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
       setTimeout(() => {
-        this.injectGoogleTranslate();
-        /* İlk dəfə səhifə açılarkən kukidən oxu */
-        this.currentLang = this.getGoogleTransLang();
-        this.setLangClass(this.currentLang);
+        const width = window.innerWidth;
+        this.isMobile = width < 768;
+        setTimeout(() => {
+          this.injectGoogleTranslate();
+          /* İlk dəfə səhifə açılarkən kukidən oxu */
+          this.currentLang = this.getGoogleTransLang();
+          this.setLangClass(this.currentLang);
+        }, 1000);
       }, 500);
     }
   }
