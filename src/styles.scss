@@ -10,3 +10,86 @@ body{
   margin-top: 0;
   margin: 0;
 }
+/* Bu class translate dropdown-un içində yaranır */
+.goog-te-gadget-simple {
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 0px !important; /* mətni gizlət */
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* Dropdown link button */
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
+  font-size: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: pointer;
+}
+
+/* Kiçik bayraq və ox işarəsi */
+.goog-te-gadget-icon {
+  display: none !important; /* Google-un loqosu getsin */
+}
+
+/* Yazının yerinə öz görünüşümüz olsun */
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed::before {
+  content: "🇦🇿";
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+#google_translate_element.lang-az .VIpgJd-ZVi9od-xl07Ob-lTBxed::before {
+  content: "🇦🇿";
+}
+#google_translate_element.lang-en .VIpgJd-ZVi9od-xl07Ob-lTBxed::before {
+  content: "🇬🇧";
+}
+#google_translate_element.lang-es .VIpgJd-ZVi9od-xl07Ob-lTBxed::before {
+  content: "🇪🇸";
+}
+#google_translate_element.lang-ru .VIpgJd-ZVi9od-xl07Ob-lTBxed::before {
+  content: "🇷🇺";
+}
+
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed:hover::before {
+  font-size: 24px;
+}
+
+/* Ox ↓ simvolunu gizlətmək */
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span[aria-hidden="true"] {
+  display: none !important;
+}
+
+/* Translate menyunun çıxan hissəsi (iframe daxilindədir) – müdaxilə olmur */
+.goog-te-menu-value span {
+  color: #000 !important;
+}
+
+/* Alt iframe gizlənsin deyə overflow düzəldirik */
+body .goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+
+/* Translate edilmiş text sarı fonda olmasın */
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+/* Google Translate üst bannerini gizlət */
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
+/* Body margin-top-unun dəyişdirilməsinin qarşısını al */
+body {
+  top: 0 !important;
+}
+
+///* Google-un digər "skiptranslate" class-lı overlaylərini də gizlət */
+.skiptranslate iframe {
+  display: none !important;
+}
